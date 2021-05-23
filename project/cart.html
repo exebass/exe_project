@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Make-UP</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="javascript/main.js" async></script>
+</head>
+    
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="">Despre noi</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Contul meu</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+            <a href="cart.html">
+                <img src="images/cart.png" width="30px" height="30px">
+            </a>
+            </div>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </div>
+
+<section class="container content-section">
+            <h2 class="section-header">CART</h2>
+           
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                
+            </div>
+        
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">39.97 RON</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+<!--
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Produs</th>
+                <th>Cantitate</th>
+                <th>Sub-Total</th>
+            </tr>
+            <tr>
+                <td>Nume</td>
+                <td><input type="number" value="1"></td>
+                <td>50$</td>
+            </tr>
+        </table>
+    </div>
+-->
+
+<!------------footer------------>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="images/logo-white.png">
+                    <p>Scopul nostru este sa lalallala!!!!!</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Contact us</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <a href="https://www.facebook.com/"><li>Facebook</li></a>
+                        <a href="https://www.instagram.com"><li>Instagram</li></a>
+                        <a href="https://www.youtube.com"><li>Youtube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Car Make-Up</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--    ----js for toggle menu------->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+       MenuItems.style.maxHeight = "0px";
+       function menutoggle(){
+           if(MenuItems.style.maxHeight == "0px")
+               {
+                   MenuItems.style.maxHeight = "200px";
+               }
+           else
+               {
+                   MenuItems.style.maxHeight = "0px";
+               }
+       }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
